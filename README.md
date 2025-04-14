@@ -46,7 +46,7 @@ This game also helped me get better at working with loops, conditional statement
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rock-paper-scissors-game-cli.git
+git clone https://github.com/CanMus04/rock-paper-scissors-game-cli.git
 
 # Move into the folder
 cd rock-paper-scissors-game-cli
