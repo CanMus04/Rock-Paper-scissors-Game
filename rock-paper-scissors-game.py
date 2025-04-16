@@ -24,7 +24,6 @@ def show_score(player_score, computer_score):
     """Shows the current score"""
     print(f"\nScore: Player {player_score} - {computer_score} Computer")
 
-# Main program
 print("Welcome to Rock, Paper, Scissors!")
 print("You are playing against the computer. First to 3 points wins.")
 
@@ -34,8 +33,7 @@ round_num = 1
 
 while player_score < 3 and computer_score < 3:
     print(f"\n--- Round {round_num} ---")
-    
-    # Player chooses
+   
     print("\nChoose:")
     print("1. Rock")
     print("2. Paper")
@@ -43,7 +41,7 @@ while player_score < 3 and computer_score < 3:
     
     choice = input("Your choice (1-3): ")
     
-    # Translate input
+    
     if choice == "1":
         player_choice = "Rock"
     elif choice == "2":
@@ -56,7 +54,7 @@ while player_score < 3 and computer_score < 3:
     
     print(f"\nYou chose {player_choice}.")
     
-    # Computer chooses with a short delay for suspense
+   
     print("The computer is choosing", end="")
     for _ in range(3):
         print(".", end="", flush=True)
